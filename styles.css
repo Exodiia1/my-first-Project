@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(252, 86, 10);
+  background-image: url(fruits.jpg);
+}
+
+h1 {
+  font-size: 120px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+
+p {
+  font-size: 90px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  transform: translate(0%, -90%);
+}
+
+.name {
+  width: 50%;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  background-color: yellow;
+}
+
+.email {
+  width: 50%;
+  height: 70px;
+  position: absolute;
+  background-color: yellow;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+.dropdown {
+  width: 50%;
+  height: 70px;
+  position: absolute;
+  background-color: yellow;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+}
+.text {
+  width: 50%;
+  height: 40px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 300%);
+  background-color: yellow;
+}
+.submit {
+  width: 50%;
+  height: 50px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 400%);
+  background-color: yellow;
+}
